@@ -25,6 +25,8 @@ private:
     QPushButton      *openButton;
     QDialogButtonBox *buttonBox;
     QTcpSocket       tcpClient;
+    QLineEdit        *ipLineEdit;    // 輸入 IP 位址
+    QLineEdit        *portLineEdit;  // 輸入 Port
 
     qint64           totalBytes;
     qint64           bytesWritten;
